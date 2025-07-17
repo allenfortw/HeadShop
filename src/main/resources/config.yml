@@ -1,0 +1,4 @@
+permissions: "headshop.buy"
+default:
+  total: '1'
+  price: '10000'

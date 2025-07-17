@@ -1,0 +1,17 @@
+name: HeadShop
+version: 1.0.0
+main: net.allenpvp.headshop.HeadShop
+author: [AllenPixel, Allen]
+api-version: "1.13"
+depend: [Vault]
+
+commands:
+  headshop:
+    description: Buy player heads
+    usage: /headshop <player> [amount]
+    permission: headshop.buy
+
+permissions:
+  headshop.buy:
+    description: Allows player to buy heads
+    default: true
